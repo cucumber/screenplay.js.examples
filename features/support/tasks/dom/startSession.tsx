@@ -1,4 +1,4 @@
-import { Actor, eventually } from '../../../../src'
+import { Actor, eventually } from '@cucumber/screenplay'
 import World from '../../World'
 import { StartSession } from '../types'
 import getDomUser from '../../helpers/getDomUser'

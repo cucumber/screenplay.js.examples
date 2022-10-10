@@ -1,4 +1,4 @@
-import { Actor } from '../../../../../src'
+import { Actor } from '@cucumber/screenplay'
 import World from '../../../World'
 import { getByLabelText } from '@testing-library/dom'
 import userEvent from '@testing-library/user-event'

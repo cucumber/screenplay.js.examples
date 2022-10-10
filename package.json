@@ -1,14 +1,10 @@
 {
-  "name": "@cucumber/screenplay",
-  "version": "5.1.0",
-  "description": "Write better scenarios with Cucumber.js",
-  "main": "dist/src/index.js",
-  "types": "dist/src/index.d.ts",
-  "dependencies": {},
-  "peerDependencies": {
-    "@cucumber/cucumber": "^7.3.1"
-  },
+  "name": "@cucumber/screenplay-examples",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Examples for @cucumber/screenplay",
   "devDependencies": {
+    "@cucumber/screenplay": "^5.1.0",
     "@cucumber/cucumber": "^7.3.1",
     "@cucumber/electron": "4.1.3",
     "@cucumber/microdata": "2.1.0",
@@ -49,13 +45,11 @@
   },
   "scripts": {
     "build": "tsc --build tsconfig.json",
-    "test": "npm run mocha && npm run cucumber && npm run cucumber-http && npm run cucumber-dom && npm run cucumber-dom-http",
-    "mocha": "mocha",
+    "test": "npm run cucumber && npm run cucumber-http && npm run cucumber-dom && npm run cucumber-dom-http",
     "cucumber": "cucumber-js",
     "cucumber-http": "cucumber-js --profile http",
     "cucumber-dom": "cucumber-electron --profile dom --stylesheet features/src/components/style.css ",
     "cucumber-dom-http": "cucumber-electron --profile domHttp --stylesheet features/src/components/style.css",
-    "prepublishOnly": "npm run build",
     "upgrade": "npm-check-updates --upgrade",
     "eslint": "eslint --ext ts,tsx --max-warnings 0 src features",
     "eslint-fix": "eslint --ext ts,tsx --max-warnings 0 --fix src features",
@@ -63,7 +57,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cucumber/screenplay.js.git"
+    "url": "git+https://github.com/cucumber/screenplay.js.examples.git"
   },
   "keywords": [
     "testing",
@@ -74,9 +68,9 @@
   "author": "Cucumber Team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cucumber/screenplay.js/issues"
+    "url": "https://github.com/cucumber/screenplay.js.examples/issues"
   },
-  "homepage": "https://github.com/cucumber/screenplay.js#readme",
+  "homepage": "https://github.com/cucumber/screenplay.js.examples#readme",
   "prettier": {
     "trailingComma": "es5",
     "semi": false,

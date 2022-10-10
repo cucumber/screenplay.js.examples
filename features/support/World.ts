@@ -1,9 +1,9 @@
 import { setWorldConstructor, Before, After, defineParameterType } from '@cucumber/cucumber'
 import { AppElements } from '@cucumber/electron'
-import { ActorWorld, ActorParameterType } from '../../src/index'
+import { ActorWorld, ActorParameterType } from '@cucumber/screenplay'
 
-import Shouty from '../src/Shouty'
-import { makeApp } from '../src/server'
+import Shouty from '../../src/Shouty'
+import { makeApp } from '../../src/server'
 import { promisify } from 'util'
 import { InboxMessages, Shout, StartSession } from './tasks/types'
 
@@ -11,7 +11,7 @@ defineParameterType({ ...ActorParameterType })
 defineParameterType({
   name: 'coordinate',
   regexp: /\(\s*(\d+),\s*(\d+)\s*\)/,
-  transformer(x, y) {
+  transformer(x: string, y: string) {
     return { x: +x, y: +y }
   },
 })

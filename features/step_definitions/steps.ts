@@ -1,10 +1,9 @@
 import { Given, When, Then } from '@cucumber/cucumber'
-import { Actor } from '../../src'
+import { Actor, eventually } from '@cucumber/screenplay'
 
 import World from '../support/World'
-import { Message } from '../src/types'
+import { Message } from '../../src/types'
 import assert from 'assert'
-import eventually from '../../src/eventually'
 import getSession from '../support/helpers/getSession'
 
 Given('{actor} is online', async function (this: World, actor: Actor<World>) {

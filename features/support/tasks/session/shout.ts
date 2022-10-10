@@ -1,7 +1,7 @@
-import { Actor } from '../../../../src'
+import { Actor } from '@cucumber/screenplay'
 import World from '../../World'
 import { Shout } from '../types'
-import { Message } from '../../../src/types'
+import { Message } from '../../../../src/types'
 import getSession from '../../helpers/getSession'
 
 export const shout: Shout = (message: Message) => {

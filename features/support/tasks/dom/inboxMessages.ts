@@ -1,4 +1,4 @@
-import { Actor } from '../../../../src'
+import { Actor } from '@cucumber/screenplay'
 import World from '../../World'
 import { InboxMessages } from '../types'
 import { microdata, toArray } from '@cucumber/microdata'

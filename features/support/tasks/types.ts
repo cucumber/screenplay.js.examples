@@ -1,5 +1,5 @@
-import { Action, PromiseAction } from '../../../src'
-import { Message } from '../../src/types'
+import { Action, PromiseAction } from '@cucumber/screenplay'
+import { Message } from '../../../src/types'
 
 export type StartSession = () => PromiseAction
 export type Shout = (message: Message) => PromiseAction

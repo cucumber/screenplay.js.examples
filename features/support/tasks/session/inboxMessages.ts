@@ -1,4 +1,4 @@
-import { Actor } from '../../../../src'
+import { Actor } from '@cucumber/screenplay'
 import { InboxMessages } from '../types'
 import World from '../../World'
 import getInboxMessages from '../../helpers/getInboxMessages'

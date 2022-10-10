@@ -1,7 +1,7 @@
-import { Actor } from '../../../src'
+import { Actor } from '@cucumber/screenplay'
 import World from '../World'
-import { Session } from '../../src/types'
-import HttpSession from '../../src/HttpSession'
+import { Session } from '../../../src/types'
+import HttpSession from '../../../src/HttpSession'
 import NodeEventSource from 'eventsource'
 
 export default function getSession(actor: Actor<World>): Session {

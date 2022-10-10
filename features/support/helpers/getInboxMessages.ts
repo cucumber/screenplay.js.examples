@@ -1,6 +1,6 @@
-import { Actor } from '../../../src'
+import { Actor } from '@cucumber/screenplay'
 import World from '../World'
-import { Message } from '../../src/types'
+import { Message } from '../../../src/types'
 import getSession from './getSession'
 
 export default function getInboxMessages(actor: Actor<World>): readonly Message[] {

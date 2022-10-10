@@ -1,4 +1,4 @@
-import { Actor, eventually } from '../../../../../src'
+import { Actor, eventually } from '@cucumber/screenplay'
 import World from '../../../World'
 import { getByText } from '@testing-library/dom'
 import { ClickShoutButton } from './types'
