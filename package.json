@@ -5,7 +5,7 @@
   "description": "Examples for @cucumber/screenplay",
   "devDependencies": {
     "@cucumber/screenplay": "^5.1.0",
-    "@cucumber/cucumber": "^7.3.1",
+    "@cucumber/cucumber": "^8.0.0",
     "@cucumber/electron": "4.1.3",
     "@cucumber/microdata": "2.1.0",
     "@testing-library/dom": "9.0.0",
