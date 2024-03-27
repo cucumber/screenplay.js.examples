@@ -30,7 +30,7 @@
     "eventsource": "2.0.2",
     "express": "4.19.2",
     "mocha": "10.4.0",
-    "node-fetch": "2.7.0",
+    "node-fetch": "3.3.2",
     "npm-check-updates": "16.14.18",
     "prettier": "3.2.5",
     "pretty-quick": "4.0.0",
