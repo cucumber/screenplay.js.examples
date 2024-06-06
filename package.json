@@ -49,7 +49,6 @@
     "cucumber-http": "cucumber-js --profile http",
     "cucumber-dom": "cucumber-electron --profile dom --stylesheet features/src/components/style.css ",
     "cucumber-dom-http": "cucumber-electron --profile domHttp --stylesheet features/src/components/style.css",
-    "upgrade": "npm-check-updates --upgrade",
     "eslint": "eslint --ext ts,tsx --max-warnings 0 src features",
     "eslint-fix": "eslint --ext ts,tsx --max-warnings 0 --fix src features",
     "pretty-quick": "pretty-quick --staged"
