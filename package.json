@@ -29,7 +29,7 @@
     "eslint-plugin-react-hooks": "5.0.0",
     "eventsource": "2.0.2",
     "express": "4.21.1",
-    "mocha": "10.7.3",
+    "mocha": "10.8.1",
     "node-fetch": "2.7.0",
     "prettier": "3.3.3",
     "pretty-quick": "4.0.0",
