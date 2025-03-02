@@ -35,7 +35,7 @@
     "pretty-quick": "4.0.0",
     "react": "19.0.0",
     "react-dom": "19.0.0",
-    "schema-dts": "1.1.2",
+    "schema-dts": "1.1.5",
     "source-map-support": "0.5.21",
     "ssestream": "1.1.0",
     "ts-node": "10.9.2",
