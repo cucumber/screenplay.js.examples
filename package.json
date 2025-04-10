@@ -22,7 +22,7 @@
     "assembly-diagrams": "0.0.1",
     "electron": "13.6.9",
     "eslint": "8.57.1",
-    "eslint-config-prettier": "10.1.1",
+    "eslint-config-prettier": "10.1.2",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-prettier": "5.2.6",
     "eslint-plugin-react": "7.37.5",
