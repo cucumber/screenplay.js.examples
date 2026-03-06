@@ -20,7 +20,7 @@
     "@typescript-eslint/eslint-plugin": "8.56.1",
     "@typescript-eslint/parser": "8.56.1",
     "assembly-diagrams": "0.0.1",
-    "electron": "13.6.9",
+    "electron": "35.7.5",
     "eslint": "8.57.1",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-node": "11.1.0",
